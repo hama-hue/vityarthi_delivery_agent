@@ -1,0 +1,7 @@
+map,planner,path_found,path_cost,nodes_expanded,planning_time_ms,sim_steps,collisions
+map_small.txt,UCS,True,8.0,21,0.18849999469239265,,
+map_small.txt,A*,True,,,,8,0
+map_small.txt,LocalSearch,True,,,,8,0
+map_dynamic.txt,UCS,True,9.0,33,0.38279998989310116,,
+map_dynamic.txt,A*,True,,,,9,0
+map_dynamic.txt,LocalSearch,True,,,,9,0

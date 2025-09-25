@@ -1,10 +1,33 @@
-# Vityarthi Project – Autonomous Delivery Agent
+# Vityarthi Delivery Agent Project
 
-This project implements an autonomous delivery agent navigating a 2D grid city.
-The agent delivers packages while handling terrain costs, static obstacles,
-and dynamic moving obstacles.
+## 📌 Overview
+This project implements a delivery agent navigating a grid world with:
+- **Uniform Cost Search (UCS)**
+- **A\*** (with heuristics, optional time-aware)
+- **Local Search** (hill climbing with random restarts)
+- Simulation with moving obstacles
+- Visualization (frames & videos)
+- Experiment runner and results plotting
 
-Algorithms implemented:
-- Uniform-cost search (UCS)
-- A* search with admissible heuristic
-- Local search replanning (hill-climbing / simulated annealing)
+## 📂 Project Structure
+vityarthi_delivery_agent/
+│
+├── maps/ # Map files and schedules
+│ ├── map_small.txt
+│ ├── map_dynamic.txt
+│ └── dynamic_schedule.json
+│
+├── src/
+│ ├── init.py
+│ ├── map_parser.py
+│ ├── grid.py
+│ ├── search.py
+│ ├── local_search.py
+│ ├── agent.py
+│ ├── visualize.py
+│ ├── cli.py
+│ ├── experiments.py
+│ └── plot_results.py
+│
+├── requirements.txt
+└── README.md
